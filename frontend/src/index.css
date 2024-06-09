@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 /*
   PAGE STYLES
 */
-
+/*
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+  */
+
+:root {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
 }
 
 * {
@@ -20,7 +28,12 @@ body {
   align-items: center;
   justify-items: center;
 
-  margin: 0;
+  margin: 18px 36px;
   min-width: 320px;
   min-height: 100vh;
+}
+
+h1, h2 {
+  margin: 0px;
+  text-transform: uppercase;
 }

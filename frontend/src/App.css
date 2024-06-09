@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 /* 
   ================
   COMPONENT STYLES
@@ -21,11 +23,94 @@
   gap: 25px;
 }
 
-h1.title {
-  text-align: center;
-  font-size: 24pt;
+img.logo {
+  width: 80px;
+  height: 81px;
+}
 
-  padding-bottom: 25px;
+/* Page Opener */
+
+.opener {
+  text-align: left;
+  margin: 50px 0px;
+}
+
+
+.subheader {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h1.header {
+  font-size: 48px;
+  font-weight: bold;
+  width: 50%;
+}
+
+/* Submission Form */
+
+/* .submision.subheader {
+
+} */
+
+.submission-box {
+  background-color: #6C40BD;
+  border-radius: 32px;
+  width: 740px;
+  height: 530px;
+  padding: 24px;
+  color: white;
+}
+
+.submission-box > *, .submission-box-text-inputs > * {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+
+.submission-box-text-inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.submission-box-text-inputs > input,
+.submission-box-text-inputs > textarea {
+  border-radius: 4px;
+  border-style: none;
+  padding: 8px;
+  margin: 5px;
+}
+
+.submission-box-text-inputs > textarea {
+  resize: none;
+  height: 800px;
+}
+
+#partner-name, #partner-logo-src {
+  width: 48.5%;
+}
+
+
+.submission-box-text-inputs > input[type="text"]::placeholder,
+.submission-box-text-inputs > textarea::placeholder {
+  font-family: inherit;
+  font-weight: 600;
+  color: #3664C0;
+}
+
+.submission-box > input[type="submit"] {
+  font-family: "Outfit", sans-serif;
+  background-color: #C34578;
+  color: white;
+  border-radius: 64px;
+  border-style: none;
+  padding: 5px 12px;
+  margin: 5px;
+  width: 25%;
+  height: fit-content;
+}
+
+#partner-desc {
+  height: 100px;
 }
 
 /* PartnerTile */
